@@ -3,8 +3,6 @@
 #### Table of Contents
 - [Introduction](#Introduction)
 - [Features](#Features)
-- [Technologies](#Technologies)
-- [Contributions](#Contributions)
 - [Author](#Author)
 ---
 ## Introduction

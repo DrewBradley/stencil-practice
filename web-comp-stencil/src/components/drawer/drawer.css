@@ -1,0 +1,41 @@
+aside {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 15rem;
+    max-width: 80%;
+    height: 100vh;
+    background-color: blanchedalmond;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: left 0.5s ease-out;
+}
+
+:host([open]) aside {
+    left: 0;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0.5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+main {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::slotted {
+    margin: 0.25rem;
+}
+
+
+img {
+    width: 20rem;
+    max-width: 85%;
+    margin: auto;
+}
